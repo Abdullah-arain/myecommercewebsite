@@ -23,7 +23,7 @@ const Hamburger = () => {
         <div className='flex flex-col absolute -ml-[120px] bg-white hover:bg-slate-100 shadow-xl items-center'>
           {/* Place your hamburger menu content here */}
           {/* Cart icon */}
-          <RiShoppingCartFill size={30}/>
+          <a href={"/cart"}><RiShoppingCartFill size={30}/></a>
           <Drop/>
         </div>
       )}

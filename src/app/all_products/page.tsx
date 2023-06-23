@@ -41,9 +41,9 @@ export default async function page() {
   return (
     <div className="md:mx-24 mx-2">
       <Navbar />
-      <div className="grid md:grid-cols-[repeat(4,auto)] grid-cols-[repeat(2,auto)] justify-center gap-x-10">
+      <div className="grid md:grid-cols-[repeat(4,auto)] grid-cols-[repeat(2,auto)] justify-center gap-x-5 md:gap-x-28 gap-y-10 mt-20">
         {data.map((itm: any) => (
-          <div key={itm._id}>
+          <div key={itm._id} >
             <ProductCart itm={itm} />
           </div>
         ))}

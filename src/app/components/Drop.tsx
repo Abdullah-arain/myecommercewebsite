@@ -22,7 +22,7 @@ const Header = () => {
   return (
     <header className="flex md:gap-x-[56px] gap-y-5 items-center pb-2 md:flex-row flex-col">
 
-        <span className="text-md text-gray-800">
+        <span className="text-md text-gray-800 hover:bg-slate-50 py-1 px-3 rounded-md">
           <Link href={"/"}>Home</Link>
         </span>
 
@@ -59,7 +59,7 @@ const Header = () => {
         )}
       </span>
 
-        <span className="text-md text-gray-800">
+        <span className="text-md text-gray-800 hover:bg-slate-50 py-1 px-3 rounded-md">
           <Link href={"/all_products"}>All Products</Link>
         </span>
 

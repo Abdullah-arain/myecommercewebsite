@@ -37,7 +37,7 @@ export default function Navbar() {
 
       <span className='flex-1 md:block hidden'>
        <div className='grid justify-items-end'>
-          <RiShoppingCartFill size={30} className='justify-self-end mt-5'/>
+          <a href={"/cart"}><RiShoppingCartFill size={30} className='justify-self-end mt-5'/></a>
        </div>
        </span>
 
